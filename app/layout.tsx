@@ -3,7 +3,7 @@ import type { ReactNode } from "react";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Verrin Agent Control Room",
+  title: "Relay Agent Control Room",
   description: "Launch an autonomous GitHub agent from one brief."
 };
 

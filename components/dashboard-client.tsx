@@ -23,11 +23,11 @@ interface JobsPayload {
 }
 
 const STALE_KEYS = [
-  "verrin.pendingPreviewJobId",
-  "verrin.lastOpenedPreviewJobId",
-  "verrin.autoOpenPreviewJobId",
-  "verrin.previewUrl",
-  "verrin.pendingRunId"
+  "relay.pendingPreviewJobId",
+  "relay.lastOpenedPreviewJobId",
+  "relay.autoOpenPreviewJobId",
+  "relay.previewUrl",
+  "relay.pendingRunId"
 ];
 
 function formatStatus(status: JobRecord["status"]): string {

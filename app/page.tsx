@@ -4,7 +4,7 @@ export default function HomePage() {
   return (
     <main className="page-shell">
       <section className="hero hero-minimal">
-        <h1>Verrin</h1>
+        <h1>Relay</h1>
         <p>One brief in. Repository, code, push, and preview out.</p>
       </section>
 
